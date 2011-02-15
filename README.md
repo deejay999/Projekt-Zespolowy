@@ -1,11 +1,11 @@
 Sprawdzanie obecnosci
 ============
 ### Czlonkowie:
-*Kamil Krygier
+* Kamil Krygier
 
-*Sebastian Hebel
+* Sebastian Hebel
 
-*Dariusz Jackiewicz
+* Dariusz Jackiewicz
 
 
 ### Opis: program ma na celu przeprowadzenia sprawdzania obecnosci na zajeciach.
