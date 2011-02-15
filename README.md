@@ -2,9 +2,7 @@ Sprawdzanie obecnosci
 ============
 ### Czlonkowie:
 * Kamil Krygier
-
 * Sebastian Hebel
-
 * Dariusz Jackiewicz
 
 
