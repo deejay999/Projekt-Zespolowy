@@ -1,0 +1,25 @@
+archetyp: weld
+baza: HSQL
+
+
+
+Sebastian:
+student, teracher (interface, manager)
+
+
+Darek:
+lecture (manager, interface)
+
+
+Kamil:
+group (interface, manager)
+presence
+
+ - 13.03: zrobienie metody addGroup i removeGroup
+ - 20.03: zrobienie metody findGroupByNumber, updateGroup i getAllGroups
+
+
+do konca lutego:
+wypisanie klas encji(?) i ich pol (teacher, student, group, presence, lecture)
+...
+
