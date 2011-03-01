@@ -1,0 +1,11 @@
+Kamil:
+
+
+a) klasa group
+ - 13.03: dodanie metody addGroup i removeGroup
+ - 20.03: dodanie metody findGroupByNumber, updateGroup i getAllGroups
+ - 12.04: dodanie metody findGroup i addStudentToGroup
+
+b) klasa presence
+ - 20.03: dodanie metody addPresence
+
