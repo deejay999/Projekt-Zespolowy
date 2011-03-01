@@ -1,0 +1,11 @@
+Seba:
+
+a) klasa Teacher:
+	-do 15.03.2011 zostanie dodana klasa teacher wraz z jej polami, tabela teacher w bazie danych 
+oraz widok dla teachera (pierwowzór, jeszcze bez zadnej funkcjonalnosci)
+
+
+
+b)klasa Student:
+	--do 15.03.2011 zostanie dodana klasa Student wraz z jej polami, tabela student w bazie danych 
+oraz widok dla studenta (pierwowzór, jeszcze bez zadnej funkcjonalnosci)
