@@ -2,7 +2,7 @@ Seba:
 
 a) klasa Teacher:
 	-do 15.03.2011 zostanie dodana klasa teacher wraz z jej polami, tabela teacher w bazie danych 
-oraz widok dla teachera (pierwowzór, jeszcze bez zadnej funkcjonalnosci)
+oraz widok dla teachera (pierwowzor, jeszcze bez zadnej funkcjonalnosci)
 
 	-do 29.03.2011 zostana zaimplementowane oraz dodane do widoku metody:
 		-addTeacher	
@@ -14,7 +14,7 @@ oraz widok dla teachera (pierwowzór, jeszcze bez zadnej funkcjonalnosci)
 
 b)klasa Student:
 	-do 15.03.2011 zostanie dodana klasa Student wraz z jej polami, tabela student w bazie danych 
-oraz widok dla studenta (pierwowzór, jeszcze bez zadnej funkcjonalnosci)
+oraz widok dla studenta (pierwowzor, jeszcze bez zadnej funkcjonalnosci)
 
 	-do 29.03.2011 zostana zaimplementowane oraz dodane do widoku metody:
 		-addStudent	
@@ -27,4 +27,4 @@ oraz widok dla studenta (pierwowzór, jeszcze bez zadnej funkcjonalnosci)
 		-getAllStudents
 
 Po zaimplementowaniu zalozonych klas i metod projekt bedzie analizowany pod wzgledem funkcjonalnosci i modyfikowany.
-W kolejnych terminach (co drugi tydzien) dodawane beda funkcje, które zostana uznane za przydatne/potrzebne, a jeszcze nie zaimplementowane.
+W kolejnych terminach (co drugi tydzien) dodawane beda funkcje, ktore zostana uznane za przydatne/potrzebne, a jeszcze nie zaimplementowane.
