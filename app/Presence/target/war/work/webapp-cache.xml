@@ -4,14 +4,19 @@
       <string>currentBuild</string>
       <path-set>
         <pathsSet class="linked-hash-set">
+          <string>addGroup.xhtml</string>
           <string>addStudent.xhtml</string>
           <string>addTeacher.xhtml</string>
           <string>home.xhtml</string>
+          <string>index.jsf</string>
           <string>index.jsp</string>
+          <string>index.xhtml</string>
           <string>META-INF/context.xml</string>
+          <string>META-INF/MANIFEST.MF</string>
           <string>resources/css/screen.css</string>
           <string>resources/gfx/banner.png</string>
           <string>resources/gfx/weld.png</string>
+          <string>showGroup.xhtml</string>
           <string>showStudent.xhtml</string>
           <string>showTeacher.xhtml</string>
           <string>WEB-INF/beans.xml</string>
@@ -23,8 +28,12 @@
           <string>WEB-INF/classes/JEE/Presence/domain/Presence.class</string>
           <string>WEB-INF/classes/JEE/Presence/domain/Student.class</string>
           <string>WEB-INF/classes/JEE/Presence/domain/Teacher.class</string>
+          <string>WEB-INF/classes/JEE/Presence/service/GroupManager.class</string>
+          <string>WEB-INF/classes/JEE/Presence/service/PresenceManager.class</string>
           <string>WEB-INF/classes/JEE/Presence/service/StudentsManager.class</string>
           <string>WEB-INF/classes/JEE/Presence/service/TeachersManager.class</string>
+          <string>WEB-INF/classes/JEE/Presence/web/GroupBean.class</string>
+          <string>WEB-INF/classes/JEE/Presence/web/PresenceBean.class</string>
           <string>WEB-INF/classes/JEE/Presence/web/StudentsBean.class</string>
           <string>WEB-INF/classes/JEE/Presence/web/TeachersBean.class</string>
           <string>WEB-INF/classes/META-INF/persistence.xml</string>

@@ -6,7 +6,7 @@
     </groups>
     <test name="Command line test">
       <class name="Presence.Present.HelloWorldTest">
-        <test-method status="PASS" signature="testGetText()" name="testGetText" duration-ms="5" started-at="2011-03-15T21:18:34Z" finished-at="2011-03-15T21:18:34Z">
+        <test-method status="PASS" signature="testGetText()" name="testGetText" duration-ms="0" started-at="2011-03-15T23:54:48Z" finished-at="2011-03-15T23:54:48Z">
         </test-method>
       </class>
     </test>

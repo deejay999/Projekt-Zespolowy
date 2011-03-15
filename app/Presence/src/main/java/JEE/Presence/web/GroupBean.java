@@ -2,14 +2,19 @@ package JEE.Presence.web;
 
 import java.io.Serializable;
 
+import javax.enterprise.context.SessionScoped;
 import javax.faces.model.DataModel;
 import javax.faces.model.ListDataModel;
 import javax.inject.Inject;
+import javax.inject.Named;
 
 import JEE.Presence.domain.Group;
 
 import JEE.Presence.service.GroupManager;
 
+
+@SessionScoped
+@Named
 public class GroupBean implements Serializable{
 	
 	@Inject

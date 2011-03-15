@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+   xmlns:ui="http://java.sun.com/jsf/facelets"
+   xmlns:f="http://java.sun.com/jsf/core"
+   xmlns:h="http://java.sun.com/jsf/html"
+   template="/WEB-INF/templates/default.xhtml">
+   <ui:define name="content">
+      <h1>Add Group</h1>
+
+     
+
+     	 <div id="content_right">
+	<h:form>
+      <h:panelGrid columns="2">
+        <h:outputText value="Group number: " />
+        <h:inputText  value="#{groupBean.groupNumber}" />
+       
+        <h:outputText value="Major: " />
+        <h:inputText value="#{groupBean.major}" />
+        
+        <h:outputText value="Year: " />
+        <h:inputText value="#{groupBean.year}" />
+              
+      </h:panelGrid>
+      
+      <h:panelGrid columns="1">
+        <h:commandButton value=" Add Group"
+          action="#{groupBean.addGroup}" />
+      </h:panelGrid>
+    </h:form>
+	
+	</div>
+
+   </ui:define>
+</ui:composition>
