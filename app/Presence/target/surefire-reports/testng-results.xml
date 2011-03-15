@@ -1,0 +1,14 @@
+<testng-results>
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite">
+    <groups>
+    </groups>
+    <test name="Command line test">
+      <class name="Presence.Present.HelloWorldTest">
+        <test-method status="PASS" signature="testGetText()" name="testGetText" duration-ms="5" started-at="2011-03-15T21:18:34Z" finished-at="2011-03-15T21:18:34Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
