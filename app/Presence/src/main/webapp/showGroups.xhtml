@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	template="/WEB-INF/templates/default.xhtml">
+	<ui:define name="content">
+		<h:dataTable value="#{groupBean.allGroups}" var="current">
+			<h:column value="Group number">
+				<h:outputText value="#{current.groupNumber}" />
+			</h:column>
+			<h:column value="Major">
+				<h:outputText value="#{current.major}" />
+			</h:column>
+			<h:column value="Year">
+				<h:outputText value="#{current.year}" />
+			</h:column>
+		</h:dataTable>
+	</ui:define>
+</ui:composition>

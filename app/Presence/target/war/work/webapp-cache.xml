@@ -17,6 +17,7 @@
           <string>resources/gfx/banner.png</string>
           <string>resources/gfx/weld.png</string>
           <string>showGroup.xhtml</string>
+          <string>showGroups.xhtml</string>
           <string>showStudent.xhtml</string>
           <string>showTeacher.xhtml</string>
           <string>WEB-INF/beans.xml</string>

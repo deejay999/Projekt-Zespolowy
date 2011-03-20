@@ -9,6 +9,7 @@ import javax.persistence.NamedQuery;
 @Entity
 @NamedQuery(name="groups.all", query="from Group")
 public class Group {
+
 	private long id;
 	private String major;
 	private int year;

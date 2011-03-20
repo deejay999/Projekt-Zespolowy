@@ -13,11 +13,11 @@ public class PresenceManager {
 	@PersistenceContext
 	EntityManager em;
 	
-	public void addPresence(Student student, Date date, Lecture lecture){
+	public void addPresence(Student student, Date date /*Lecture lecture*/){
 		Presence presence = new Presence();
 		presence.setStudent(student);
 		presence.setDate(date);
-		presence.setLecture(lecture);
+		//presence.setLecture(lecture);
 		
 		em.persist(presence);
 	}

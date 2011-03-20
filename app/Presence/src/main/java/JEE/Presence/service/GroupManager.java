@@ -6,7 +6,6 @@ import javax.ejb.Stateless;
 import javax.persistence.PersistenceContext;
 import javax.persistence.EntityManager;
 import JEE.Presence.domain.Group;
-import JEE.Presence.domain.Teacher;
 
 @Stateless
 public class GroupManager {
