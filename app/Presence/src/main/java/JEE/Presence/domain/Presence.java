@@ -5,7 +5,7 @@ import java.util.Date;
 public class Presence {
 	private Student student;
 	private Date date;
-	private Lecture lecture;
+	//private Lecture lecture;
 	
 	
 	public Student getStudent() {
@@ -20,12 +20,12 @@ public class Presence {
 	public void setDate(Date date) {
 		this.date = date;
 	}
-	public Lecture getLecture() {
+	/*public Lecture getLecture() {
 		return lecture;
 	}
 	public void setLecture(Lecture lecture) {
 		this.lecture = lecture;
-	}
+	}*/
 	
 	
 
