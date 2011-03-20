@@ -109,6 +109,6 @@ public class StudentsBean implements Serializable {
 		// id
 	student = allStudents.getRowData();
 		studentsManager.remove(student.getId());
-		return "students";
+		return "showStudent";
 	}
 }

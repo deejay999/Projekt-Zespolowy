@@ -1,6 +1,7 @@
 package JEE.Presence.web;
 
 import java.io.Serializable;
+import java.util.List;
 
 
 import javax.enterprise.context.SessionScoped;
@@ -9,6 +10,7 @@ import javax.faces.model.ListDataModel;
 import javax.inject.Inject;
 import javax.inject.Named;
 
+import JEE.Presence.domain.Student;
 import JEE.Presence.domain.Teacher;
 import JEE.Presence.service.TeachersManager;
 
@@ -32,7 +34,9 @@ public class TeachersBean implements Serializable {
 	private Teacher teacher = new Teacher();
 	private DataModel<Teacher> allTeachers = new ListDataModel<Teacher>();
 	
-	
+	public List<Teacher> getAllTeachers(){
+		return teachersManager.getAllTeachers();
+}
 	
 	public TeachersManager getTeachersManager() {
 		return teachersManager;
@@ -82,9 +86,7 @@ public class TeachersBean implements Serializable {
 		this.teacher = teacher;
 	}
 
-	public DataModel<Teacher> getAllTeachers() {
-		return allTeachers;
-	}
+	
 
 	public void setAllTeachers(DataModel<Teacher> allTeachers) {
 		this.allTeachers = allTeachers;
@@ -109,7 +111,7 @@ public class TeachersBean implements Serializable {
 		// id
 	teacher = allTeachers.getRowData();
 		teachersManager.remove(teacher.getId());
-		return "teachers";
+		return "showTeacher";
 	}
 
 }

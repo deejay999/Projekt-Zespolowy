@@ -6,15 +6,15 @@
    template="/WEB-INF/templates/default.xhtml">
    <ui:define name="content">
       <h1>Teachers:</h1>
-<h:dataTable value="#{teachersBean.allTeachers}" var="current2" >
-      <h:column><f:facet name="header2"> Imie: </f:facet>
-      <h:outputText value="#{current2.name}" />
+<h:dataTable value="#{teachersBean.allTeachers}" var="current" >
+      <h:column><f:facet name="header"> Imie: </f:facet>
+      <h:outputText value="#{current.name}" />
       </h:column>
-      <h:column><f:facet name="header2"> Nazwisko </f:facet>
-      	<h:outputText value="#{current2.surname}" />
+      <h:column><f:facet name="header"> Nazwisko </f:facet>
+      	<h:outputText value="#{current.surname}" />
       </h:column>
-      <h:column><f:facet name="header2"> Login: </f:facet>
-<h:outputText value="#{current2.login}" />
+      <h:column><f:facet name="header"> Login: </f:facet>
+<h:outputText value="#{current.login}" />
       </h:column>
       
     </h:dataTable>
