@@ -5,8 +5,9 @@
    xmlns:h="http://java.sun.com/jsf/html"
    template="/WEB-INF/templates/default.xhtml">
    <ui:define name="content">
+   <h:form id="bv">
       <h1>Student presence!</h1>
-      
+       
       <h:form id="bv">
          <h2>Students</h2>
          <p><h:outputLink value="addStudent.jsf">Add student</h:outputLink></p>
@@ -15,6 +16,6 @@
          <p><h:outputLink value="addTeacher.jsf">Add teacher</h:outputLink></p>
          <p><h:outputLink value="showTeacher.jsf">Show teachers</h:outputLink></p>
       </h:form>
-     
+     </h:form>
    </ui:define>
 </ui:composition>

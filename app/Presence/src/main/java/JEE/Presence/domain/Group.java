@@ -3,6 +3,8 @@ package JEE.Presence.domain;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.ManyToMany;
+import javax.persistence.ManyToOne;
 import javax.persistence.NamedQuery;
 
 
@@ -14,6 +16,15 @@ public class Group {
 	private String major;
 	private int year;
 	private int groupNumber;
+	/*private Student student;
+	
+	@ManyToMany
+	public Student getStudent() {
+		return student;
+	}
+	public void setStudent(Student student) {
+		this.student = student;
+	}*/
 	
 	@Id
 	@GeneratedValue
