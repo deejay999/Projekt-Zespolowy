@@ -5,16 +5,18 @@
    xmlns:h="http://java.sun.com/jsf/html"
    template="/WEB-INF/templates/default.xhtml">
    <ui:define name="content">
-      <h1>Teacher:</h1>
-
-     
-
-     	 <h:outputText value="#{teachersBean.teacher.name}"/> <h:outputText value="#{teachersBean.teacher.surname}"/>
-                        <p>
-                        Login 	<h:outputText value="#{teachersBean.teacher.login}"/> <br />
- 
-                     
-                        </p>
-
-   </ui:define>
+      <h1>Teachers:</h1>
+<h:dataTable value="#{teachersBean.allTeachers}" var="current2" >
+      <h:column><f:facet name="header2"> Imie: </f:facet>
+      <h:outputText value="#{current2.name}" />
+      </h:column>
+      <h:column><f:facet name="header2"> Nazwisko </f:facet>
+      	<h:outputText value="#{current2.surname}" />
+      </h:column>
+      <h:column><f:facet name="header2"> Login: </f:facet>
+<h:outputText value="#{current2.login}" />
+      </h:column>
+      
+    </h:dataTable>
+ </ui:define>
 </ui:composition>

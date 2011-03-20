@@ -6,9 +6,17 @@
    template="/WEB-INF/templates/default.xhtml">
    <ui:define name="content">
       <h1>Students:</h1>
-<h:outputText value="#{studentsBean.student.name}"/> <h:outputText value="#{studentsBean.student.surname}"/>
-
-<p>Login: 	<h:outputText value="#{studentsBean.student.login}"/> <br /></p>
-
+<h:dataTable value="#{studentsBean.allStudents}" var="current" >
+      <h:column><f:facet name="header"> Imie: </f:facet>
+      <h:outputText value="#{current.name}" />
+      </h:column>
+      <h:column><f:facet name="header"> Nazwisko </f:facet>
+      	<h:outputText value="#{current.surname}" />
+      </h:column>
+      <h:column><f:facet name="header"> Login: </f:facet>
+<h:outputText value="#{current.login}" />
+      </h:column>
+      
+    </h:dataTable>
  </ui:define>
 </ui:composition>

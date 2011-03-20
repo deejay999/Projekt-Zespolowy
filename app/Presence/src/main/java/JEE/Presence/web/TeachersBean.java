@@ -102,7 +102,7 @@ public class TeachersBean implements Serializable {
 	
 	public String addTeacher() {		
 		teachersManager.addTeacher(name, surname, login, password);
-		return "teachers";
+		return "showTeacher";
 	}
 	
 	public String removeTeacher() {

@@ -102,7 +102,7 @@ public class StudentsBean implements Serializable {
 	
 	public String addStudent() {		
 		studentsManager.addStudent(name, surname, login, password);
-		return "students";
+		return "showStudent";
 	}
 	
 	public String removeStudent() {
