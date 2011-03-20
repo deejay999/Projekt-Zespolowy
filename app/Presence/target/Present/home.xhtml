@@ -5,13 +5,15 @@
    xmlns:h="http://java.sun.com/jsf/html"
    template="/WEB-INF/templates/default.xhtml">
    <ui:define name="content">
-      <h1>Hello World!</h1>
+      <h1>Student presence!</h1>
       
       <h:form id="bv">
-         <h2>Bean Validation examples</h2>
-         <p>Enforces annotation-based constraints defined on the model class.</p>
-         
-        
+         <h2>Students</h2>
+         <p><h:outputLink value="addStudent.jsf">Add student</h:outputLink></p>
+         <p><h:outputLink value="showStudent.jsf">Show students</h:outputLink></p>
+        <h2>Teachers</h2>
+         <p><h:outputLink value="addTeacher.jsf">Add teacher</h:outputLink></p>
+         <p><h:outputLink value="showTeacher.jsf">Show teachers</h:outputLink></p>
       </h:form>
      
    </ui:define>
