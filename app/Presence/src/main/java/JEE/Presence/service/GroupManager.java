@@ -17,7 +17,7 @@ public class GroupManager {
 		return em.createNamedQuery("groups.all").getResultList();
 	}
 	
-	public void addGroup(Integer groupNumber, String major, Integer year){
+	public void addGroup(int groupNumber, String major, int year){
 		Group group = new Group();
 		group.setGroupNumber(groupNumber);
 		group.setMajor(major);

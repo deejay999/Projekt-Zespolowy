@@ -5,7 +5,7 @@
    <groupId>Presence</groupId>
    <artifactId>Present</artifactId>
    <packaging>war</packaging>
-   <name>Present</name>
+   <name>Presence</name>
    <version>1.0.0-SNAPSHOT</version>
 
    <properties>

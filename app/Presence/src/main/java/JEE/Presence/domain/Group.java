@@ -7,15 +7,15 @@ import javax.persistence.ManyToMany;
 import javax.persistence.ManyToOne;
 import javax.persistence.NamedQuery;
 
-
 @Entity
 @NamedQuery(name="groups.all", query="from Group")
 public class Group {
 
 	private long id;
+	private int groupNumber;
 	private String major;
 	private int year;
-	private int groupNumber;
+
 	/*private Student student;
 	
 	@ManyToMany
@@ -38,7 +38,7 @@ public class Group {
 	public int getGroupNumber() {
 		return groupNumber;
 	}
-	public void setGroupNumber(int groupNumber) {
+	public void setGroupNumber(Integer groupNumber) {
 		this.groupNumber = groupNumber;
 	}
 	public String getMajor() {
@@ -50,7 +50,7 @@ public class Group {
 	public int getYear() {
 		return year;
 	}
-	public void setYear(int year) {
+	public void setYear(Integer year) {
 		this.year = year;
 	}
 	

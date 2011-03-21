@@ -11,7 +11,6 @@ import javax.inject.Inject;
 import javax.inject.Named;
 
 import JEE.Presence.domain.Group;
-import JEE.Presence.domain.Student;
 
 import JEE.Presence.service.GroupManager;
 
@@ -23,15 +22,27 @@ public class GroupBean implements Serializable{
 	@Inject
 	GroupManager groupManager;
 	
-	private Long id;
+//	private Long id;
 	private static final long serialVersionUID = 1L;
 	
 	//private List<Group> allGroups = new List<Group>();
 	private DataModel<Group> allGroups = new ListDataModel<Group>();
 	
-	private Integer groupNumber;
+	private int groupNumber;
 	private String major;
-	private Integer year;
+	private int year;
+	
+	public void setGroupNumber(int groupNumber) {
+		this.groupNumber = groupNumber;
+	}
+
+	public void setYear(int year) {
+		this.year = year;
+	}
+
+	public void setAllGroups(DataModel<Group> allGroups) {
+		this.allGroups = allGroups;
+	}
 	
 	private Group group = new Group();
 
@@ -78,26 +89,26 @@ public class GroupBean implements Serializable{
 	public void setGroup(Group group) {
 		this.group = group;
 	}
-	
+/*	
 	private void clearForm() {
 		major = "";
 		year = groupNumber = 0;
 		group = null;
-		id = null;
+		//id = null;
 	}
-	
+*/	
 	public String addGroup(){
 		groupManager.addGroup(groupNumber, major, year);
-		clearForm();
-		return "groups";
+		//clearForm();
+		return "showGroups";
 		
 	}
-/*	
+	
 	public String showGroup(){
 		this.group.setGroupNumber(allGroups.getRowData().getGroupNumber());
 		this.group.setMajor(allGroups.getRowData().getMajor());
 		this.group.setYear(allGroups.getRowData().getYear());
 		return "showGroup";
 	}
-*/
+
 }

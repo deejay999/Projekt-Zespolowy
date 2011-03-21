@@ -38,6 +38,11 @@
           <string>WEB-INF/classes/JEE/Presence/web/StudentsBean.class</string>
           <string>WEB-INF/classes/JEE/Presence/web/TeachersBean.class</string>
           <string>WEB-INF/classes/META-INF/persistence.xml</string>
+          <string>WEB-INF/classes/Presence/Present/HelloWorld.class</string>
+          <string>WEB-INF/classes/Presence/Present/Widget.class</string>
+          <string>WEB-INF/classes/Presence/Present/WidgetListProducer.class</string>
+          <string>WEB-INF/classes/Presence/Present/WidgetRepository.class</string>
+          <string>WEB-INF/classes/Presence/Present/WidgetRepositoryProducer.class</string>
           <string>WEB-INF/lib/el-impl-2.1.2-b04.jar</string>
         </pathsSet>
       </path-set>
