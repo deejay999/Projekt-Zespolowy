@@ -1,4 +1,4 @@
-Tydzień 1-3(2 marca - 23 marca):
+Tydzień 1-4(2 marca - 30 marca):
 Utworzenie:
 
   class Lecture ()
@@ -15,8 +15,8 @@ Utworzenie:
     +addGroup(Integer groupNumber, String name)
     +addTeacher(String name, String login)  
  
-  class LectureBean() ? 
+  class LectureBean() 
 
 
-Tydzień 4-5(23 marca - 6 kwietnia):
+Tydzień 5-8(30 marca - 20 kwietnia):
 Osadzenie metod w warstwie widoku.
