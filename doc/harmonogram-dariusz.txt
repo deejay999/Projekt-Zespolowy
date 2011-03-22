@@ -1,0 +1,22 @@
+Tydzień 1-3(2 marca - 23 marca):
+Utworzenie:
+
+  class Lecture ()
+    -name
+    -type 
+     List<group>
+     List<teacher>
+
+  class LectureManager()
+    +addLecture(String name, String type)
+    +removeLecture(long id)
+    +updateLecture(long id, String name, String type)
+    +List<Lecture>getAllLecture(String name)
+    +addGroup(Integer groupNumber, String name)
+    +addTeacher(String name, String login)  
+ 
+  class LectureBean() ? 
+
+
+Tydzień 4-5(23 marca - 6 kwietnia):
+Osadzenie metod w warstwie widoku.
